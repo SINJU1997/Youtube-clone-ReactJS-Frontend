@@ -1,0 +1,14 @@
+body {
+  overflow: hidden;
+}
+
+.App {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.play-div {
+  display: flex;
+  height: 100%;
+}
+  

@@ -1,0 +1,93 @@
+/* Navigation.css */
+
+.list-div {
+   width: calc(100%-220px);
+   position: relative;
+   top: -34px;
+   left: 22px;
+}
+
+.sub-div {
+    top: 25px;
+    left: 10px;
+    position: absolute; 
+    width: 1000px;
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+    white-space: nowrap;
+    overflow-y: auto; /* Enable horizontal scrolling */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;
+}
+
+.sub-div::-webkit-scrollbar {
+    display: none;
+}
+
+.all {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.mixes,
+.music,
+.live,
+.tamil,
+.cp,
+.gaming,
+.dramedy,
+.universe,
+.sales,
+.ai,
+.upload,
+.watched,
+.new {
+    background-color: rgba(0, 0, 0, 0.05);
+    text-align: center;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.left-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    position: relative;
+    left: -12px;
+    top: 37px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    padding: 10px 12px;
+    font-size: 14px;
+    /* font-weight: 100 !important; */
+}
+
+.right-btn {
+    border: none;
+    font-size: 19px;
+    position: relative;
+    left: 1040px;
+    top: 36px;
+    cursor: pointer;
+    padding: 10px 12px;
+    background-color: rgba(0, 0, 0, 0.05);
+    font-size: 14px;
+}
+
+.right-btn{
+    position: absolute;
+    border-radius: 50%;
+}
+.left-btn{
+    position: absolute;
+    margin-right: 10px;
+}

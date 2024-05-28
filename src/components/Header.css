@@ -1,0 +1,70 @@
+.header-div{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 0px 15px;
+    
+}
+.logo-div{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    margin-top: 10px;
+}
+.menubar-icon{
+    margin-top: 3px;
+    font-size: 20px;
+}
+.logo{
+    width: 106px;
+    height: 25px;
+}
+.second-div{
+    display: flex;
+    justify-content: space-between;
+    width: 640px;
+}
+.search-div{
+    display: flex;
+}
+.search{
+    border: 1px solid #ccc;
+    width: 500px;
+    height: 38px;
+    font-size: 18px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 20px;
+}
+.search-icon{
+    border-right: 1px solid #ccc;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 70px;
+    background: #e2e2e2;
+    border: 1px solid #ccc;
+}
+.s-icon, .bell-icon, .video-icon{
+    font-size: 20px;
+    
+}
+.record-icon{
+    font-size: 20px;
+    padding: 10px 12px;
+    background-color: #ccc;
+    border-radius: 50%;
+
+}
+.third-div{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+.account{
+    margin-top: 0px;
+    border-radius: 50%;
+    background-color: rgb(218, 12, 218);
+    width: 30px;
+    text-align: center;
+    color: white;
+}
